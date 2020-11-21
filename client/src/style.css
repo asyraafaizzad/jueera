@@ -1,0 +1,29 @@
+a, a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+.color-nav{
+  background-color: #ffd1dc;
+}
+
+.page{
+  text-align: center;
+  display: block;
+}
+
+.pink-button {
+  background-color: #ffd1dc;
+  color: black;
+  margin: 0.2rem;
+}
+
+.pink-button a{
+  color: black;
+}
+
+.pink-button:hover {
+  background-color: #e95577;
+  color: black;
+  margin: 0.2rem;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "jueera-collection",
+  "version": "1.0.0",
+  "description": "Jueera Collection Stock Management",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run server.js",
+    "start-server": "nodemon server.js",
+    "start-client": "cd client && npm start",
+    "start-all": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "keywords": [
+    "jueera"
+  ],
+  "author": "Asyraaf Aizzad",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
